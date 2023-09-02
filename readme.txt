@@ -1,4 +1,4 @@
-=== Visu Porta ===
+# Visu Porta
 Contributors: Kreapt Studios
 Requires at least: 6.0
 Tested up to: 6.3
