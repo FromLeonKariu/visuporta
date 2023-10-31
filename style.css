@@ -14,3 +14,6 @@ Text Domain: visuporta
 Tags: blog, portfolio, full-site-editing, 
 */
 
+body {
+    background: red;
+}

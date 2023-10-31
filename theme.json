@@ -9,10 +9,24 @@
 		"spacing": {
 			"units": [ "%", "px", "em", "rem", "vh", "vw" ]
 		},
-		"colors" : {
-			"text": "#0e0e0e",
-			"background": "#eee9e9",
-			"primary": "#111e2f"
+		"color" : {
+			"palette": [
+				{
+					"color": "#eee9e9",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#0e0e0e",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#111e2f",
+					"name": "Primary",
+					"slug": "primary"
+				}
+			]
 		},
 		"typography": {
 			"fontFamilies": [
@@ -36,5 +50,8 @@
 			"name": "footer"
 		}
 	],
+	"styles": {
+		
+	},
 	"version": 2
 }
