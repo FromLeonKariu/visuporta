@@ -25,6 +25,12 @@
 					"color": "#111e2f",
 					"name": "Primary",
 					"slug": "primary"
+				},
+				
+				{
+					"color": "#faf9f6",
+					"name": "Secondary",
+					"slug": "secondary"
 				}
 			]
 		},
@@ -51,7 +57,29 @@
 		}
 	],
 	"styles": {
-		
+		"block" : {
+			"core/post-excerpt" : {
+				"typography": {
+					"lineHeight": "1.75"
+				}
+			}
+		},
+		"color": {
+			"background": "var(--wp--preset--color--base)",
+			"text": "var(--wp--preset--color--contrast)",
+			"link" : "var(--wp--preset--color--primary)"
+		},
+		"elements" : {
+			"button" : {
+				"border" : {
+					"radius": "15"
+				},
+				"color" : {
+					"background" : "var(--wp--preset--color--contrast)",
+					"text" : "var(--wp--preset--color--secondary)"
+				}
+			}
+		}
 	},
 	"version": 2
 }

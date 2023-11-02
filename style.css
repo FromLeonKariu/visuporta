@@ -14,6 +14,117 @@ Text Domain: visuporta
 Tags: blog, portfolio, full-site-editing, 
 */
 
+
+
+/* MY CSS CODE */
+
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+P{
+    font-size: 16px;
+}
+
 body {
-    background: red;
+    margin: 20px 40px;
+}
+.header-spacing {
+    margin-bottom: 40px;
+}
+
+.wp-block-spacer {
+    max-height: 25px;
+}
+
+@media (max-width: 319px) {
+    
+    body {
+        margin: 10px;
+
+    }
+    
+
+}
+
+/* Styles for mobile devices (e.g., smartphones) */
+@media (min-width: 320px) and (max-width: 767px) {
+    .header {
+        margin-bottom: 0;
+    }
+    body {
+        margin: 15px 25px;
+    }
+}
+
+/* Styles for tablet devices (e.g., iPads) */
+@media (min-width: 768px) and (max-width: 1029px) {
+    /* Your tablet-specific styles go here */
+
+    .paragraph-max-width {
+        max-width: 540px;
+    }
+}
+
+/* Styles for desktop devices (e.g., desktop computers, laptops) */
+@media (min-width: 1030px) {
+
+    body {
+        margin: 45px 140px;
+    }
+    
+    h1 {
+        font-size: 42px;
+    }
+    
+    h2 { 
+        font-size: 36px;
+    }
+    
+    h3 {
+        font-size: 32px;
+    }
+    
+    h4 {
+        font-size: 24px;
+    }
+    
+    h5 {
+        font-size: 20px;
+    }
+    
+    h6 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .paragraph-max-width {
+        max-width: 640px;
+    }
+    .header-spacing {
+        margin-bottom: 90px;
+    }
+    .wp-block-spacer {
+        max-height: 90px;
+    }
+
+    .separator-width {
+        width: 950px;
+    }
 }
