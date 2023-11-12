@@ -21,6 +21,7 @@ Tags: blog, portfolio, full-site-editing,
 
 a {
     text-decoration: none;
+    color: #111e2f;
 }
 
 h1 {
@@ -50,6 +51,8 @@ body {
     max-height: 25px;
 }
 
+
+
 @media (max-width: 319px) {
     
     body {
@@ -77,6 +80,8 @@ body {
     .paragraph-max-width {
         max-width: 540px;
     }
+
+
 }
 
 /* Styles for desktop devices (e.g., desktop computers, laptops) */
