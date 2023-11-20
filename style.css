@@ -18,7 +18,9 @@ Tags: blog, portfolio, full-site-editing,
 
 /* MY CSS CODE */
 
-
+html {
+    scroll-behavior: smooth;
+}
 a {
     text-decoration: none;
     color: #111e2f;

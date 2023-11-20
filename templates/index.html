@@ -1,39 +1,81 @@
-<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:template-part {"slug":"header","area":"header"} /-->
 
-<!-- wp:query {"tagName":"main","layout":{"inherit":true}} -->
-<main class="wp-block-query">
-	<!-- wp:post-template -->
-	<!-- wp:group -->
-	<div class="wp-block-group">
-		<!-- wp:post-title {"isLink":true} /-->
-		<!-- wp:post-featured-image {"isLink":true} /-->
-		<!-- wp:post-content /-->
-		<!-- wp:group {"layout":{"type":"flex"}, "style":{"typography":{"fontSize":"14px"}}} -->
-		<div class="wp-block-group" style="font-size:14px">
-			<!-- wp:post-author {"showAvatar":false,"showBio":false} /-->
-			<!-- wp:post-date {"isLink":true} /-->
-			<!-- wp:post-terms {"term":"category"} /-->
-			<!-- wp:post-terms {"term": "post_tag"} /-->
-		</div>
-		<!-- /wp:group -->
-		<!-- wp:spacer {"height":40} -->
-		<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
-		<!-- /wp:spacer -->
-	</div>
-	<!-- /wp:group -->
-	<!-- /wp:post-template -->
-	<!-- wp:group {"layout":{"inherit":true}} -->
-		<div class="wp-block-group">
-		<!-- wp:query-pagination -->
-			<!-- wp:query-pagination-previous /-->
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide"><!-- wp:group {"metadata":{"name":""},"align":"wide","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide" id="home"><!-- wp:heading {"level":1,"align":"full","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"className":"paragraph-max-width"} -->
+<h1 class="wp-block-heading alignfull paragraph-max-width" style="font-style:normal;font-weight:400">Hey there, I’m Jam Slunder</h1>
+<!-- /wp:heading -->
 
-			<!-- wp:query-pagination-numbers /-->
+<!-- wp:heading {"level":3,"align":"full","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"className":"paragraph-max-width"} -->
+<h3 class="wp-block-heading alignfull paragraph-max-width" style="font-style:normal;font-weight:400">UI/UX designer, Web designer, webflow developer</h3>
+<!-- /wp:heading -->
 
-			<!-- wp:query-pagination-next /-->
-		<!-- /wp:query-pagination -->
-		</div>
-		<!-- /wp:group -->
-	</main>
-<!-- /wp:query -->
+<!-- wp:spacer {"height":"10px"} -->
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
 
-<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
+<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.75"}},"className":"paragraph-max-width"} -->
+<p class="paragraph-max-width" style="line-height:1.75">I'm a Designer and visual thinker passionate about humanizing tech experiences and creating thoughtful products for community building and social expression. Previously designing creator tools at Pinterest, I'm currently crafting the future of live radio at Amp and helping designers from diverse backgrounds land their dream jobs.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:spacer {"height":"30px"} -->
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:buttons {"align":"full"} -->
+<div class="wp-block-buttons alignfull"><!-- wp:button {"className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button">Reach out</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:spacer -->
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide" id="mywork"><!-- wp:group {"align":"full","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull"><!-- wp:heading {"align":"wide","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}}} -->
+<h2 class="wp-block-heading alignwide" style="font-style:normal;font-weight:400">My Work</h2>
+<!-- /wp:heading -->
+
+<!-- wp:spacer {"height":"10px"} -->
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer --></div>
+<!-- /wp:group -->
+
+<!-- wp:query {"queryId":4,"query":{"perPage":3,"pages":"3","offset":0,"postType":"page","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[231]},"enhancedPagination":true,"align":"full"} -->
+<div class="wp-block-query alignfull"><!-- wp:post-template -->
+<!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|70"}}}} -->
+<div class="wp-block-columns"><!-- wp:column {"width":"33.33%","style":{"spacing":{"blockGap":"0"}}} -->
+<div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:post-featured-image {"width":"","height":"390px","style":{"border":{"radius":"20px"}}} /--></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"66.66%"} -->
+<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"top"}} -->
+<div class="wp-block-group"><!-- wp:post-title {"level":3,"isLink":true,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"className":"paragraph-max-width"} /-->
+
+<!-- wp:post-excerpt {"moreText":"Open Case Study","style":{"typography":{"fontStyle":"normal","fontWeight":"400","lineHeight":"1.75"}},"className":"paragraph-max-width"} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:spacer {"height":"59px","width":"100px","style":{"layout":[]}} -->
+<div style="height:59px;width:100px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:separator {"backgroundColor":"contrast","className":"separator-width is-style-wide"} -->
+<hr class="wp-block-separator has-text-color has-contrast-color has-alpha-channel-opacity has-contrast-background-color has-background separator-width is-style-wide"/>
+<!-- /wp:separator -->
+
+<!-- wp:spacer {"height":"59px","width":"100px","style":{"layout":[]}} -->
+<div style="height:59px;width:100px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+<!-- /wp:post-template --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","area":"footer"} /--></div>
+<!-- /wp:group -->
